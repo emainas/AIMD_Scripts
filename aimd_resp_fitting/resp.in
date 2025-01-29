@@ -1,0 +1,15 @@
+basis 6-31gss
+method b3lyp
+dftgrid 3
+charge 0
+spinmult 1
+maxit 100
+run md
+restartmdfreq 50
+nstep 2000
+timestep 0.5
+pcm cosmo
+epsilon 78.39
+coordinates min.xyz
+resp yes
+esp_grid_dens 4.0
