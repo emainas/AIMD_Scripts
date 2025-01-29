@@ -1,0 +1,5 @@
+parm bring.solv.parm7
+trajin prod.traj.nc
+autoimage :1 origin
+trajout imaged.nc
+go
